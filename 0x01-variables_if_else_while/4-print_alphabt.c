@@ -1,45 +1,23 @@
 #include <stdio.h>
-
-
+#include <stdlib.h>
+#include <time.h>
 
 /**
-
- * main - Prints some letters of alphabet
-
+ * main - Entry point
  *
-
- * Return: Always (Success)
-
+ * Return: Always 0 (Success)
+ *
  */
-
 int main(void)
-  
 {
-  
-  char c;
-  
-
-  
-  for (c = 'a'; c <= 'z'; c++)
-    
-    {
-      
-      if (c != 'e' && c != 'q')
-	
-	{
-	  
-	  putchar(c);
-	  
-	}
-      
-    }
-  
-
-  
-  putchar('\n');
-  
-
-  
-  return (0);
-  
+char low, e, q;
+e = 'e';
+q = 'q';
+for (low = 'a'; low <= 'z'; low++)
+{
+if (low != e && low != q)
+putchar(low);
+}
+putchar('\n');
+return (0);
 }
