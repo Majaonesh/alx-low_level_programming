@@ -1,11 +1,6 @@
-#include<stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-  return (0);
-}
+chat _putchar(char c);
+
+#endif
