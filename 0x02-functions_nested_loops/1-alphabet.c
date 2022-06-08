@@ -1,17 +1,29 @@
-#include main.h
+#include "main.h"
+
+
 
 /**
- *main void
- *
- *return zero
- */
-void print_alphabet(void)
-{
-char i;
 
-for (i = 'a'; i <= 'z'; i++)
+ * print_alphabet - I sometimes suffer fro  insomnia.
+
+ * Description: prints the alphabet in lowercase followed by a new line.
+
+ * Return: Always 0.
+
+ */
+
+void print_alphabet(void)
+  
 {
-_putchar(i);
-}
-_putchar('\n');
+  
+  char i;
+  
+
+  
+  for (i = 'a'; i <= 'z'; i++)
+    
+    _putchar(i);
+  
+  _putchar('\n');
+  
 }
