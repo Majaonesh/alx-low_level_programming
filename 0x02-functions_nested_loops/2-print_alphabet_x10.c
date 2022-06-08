@@ -1,19 +1,20 @@
-#include "main.h
+#include "main.h"
 
 /**
-* print_alphabet_x10 - 10 x alphabet
-* Description: prints 10 times the alphabet in lowercase.
-* Return: Always 0.
+*print_alphabet_x10 - print 10 times the alphabet, in lowercase.
+*
+*Return zero always
 */
 void print_alphabet_x10(void)
 {
-char i;
-int j;
+int j, i;
 
-for (j = 0; j < 10; j++)
+for (j = 1; j <= 10; j++)
 {
 for (i = 'a'; i <= 'z'; i++)
+{
 _putchar(i);
+}
 _putchar('\n');
 }
 }
