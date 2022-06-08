@@ -6,15 +6,11 @@
 *
 * Return: 1 for lowercase character or 0 for anything else
 */
-int _islower(int d)
+int _islower(int c)
 {
-if (d >= 97 && d <= 122)
-{
+if (c >= 'a' && c <= 'z')
 return (1);
-}
 else
-{
 return (0);
-{
 }
   
