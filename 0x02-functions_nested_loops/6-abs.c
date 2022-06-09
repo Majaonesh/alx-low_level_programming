@@ -5,7 +5,7 @@
 * @ab: integer input
 * Return: absolute value of a
 */
-int _abs(int a)
+int _abs(int ab)
 {
-return (a * ((a > 0) - (a < 0)));
+return (ab * ((ab > 0) - (ab < 0)));
 }
